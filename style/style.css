@@ -82,7 +82,10 @@ header{
 
 }
 /* main section syle */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 .about{
     background-color: rgb(255, 248, 243);
@@ -101,4 +104,19 @@ text-align: center;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+}
+.about-info-container{
+display: flex;
+justify-content:space-around;
+}
+.about-info{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-info-title{
+color: rgb(117, 117, 117);
+}
+.about-info-dis{
+color: rgb(71, 71, 71);
 }
