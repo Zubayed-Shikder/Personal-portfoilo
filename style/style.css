@@ -190,3 +190,40 @@ color: rgb(71, 71, 71);
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style start from here */
+footer{
+    display: flex;
+    background-color: rgb(255, 248, 243);
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-colum{
+    width: 50%;
+    text-align: left;
+}
+.footer-section-title{
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-section-dis{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+.social-media a {
+    margin-right: 20px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 13px 30px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
