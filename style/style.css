@@ -1,0 +1,52 @@
+/* Commond shered style */
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+/* style for Navigation menu */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+ 
+}
+.nav-title{
+    font-weight: 800px;
+    color: #000000;
+    
+    font-size: 45px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+}
+
+/* shere primary style */
+
+.orenge-mama{
+    color: #FD6E0A;
+}
+.button-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    height: 60px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+
+}
