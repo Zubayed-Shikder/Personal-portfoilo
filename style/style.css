@@ -93,13 +93,13 @@ main{
     border-radius: 20px;
     margin: 130px 0;
 }
-.about-title{
+.section-title{
 color: rgb(24, 24, 24);
 font-size: 35px;
 font-weight: 700;
 text-align: center;
 }
-.about-dis{
+.section-dis{
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
@@ -120,3 +120,32 @@ color: rgb(117, 117, 117);
 .about-info-dis{
 color: rgb(71, 71, 71);
 }
+#what-i-do-dis{
+    padding: 30px 150px;
+}
+
+/* Exprience section style start from here */
+
+
+.exprience{
+    display: flex;
+    justify-content: space-around;
+}
+.exprience-item{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 24px;
+}
+.exprience-title{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+}
+.exprience-item-dis{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
