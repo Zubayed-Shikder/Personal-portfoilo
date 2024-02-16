@@ -86,6 +86,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 120px;
+}
 /* about section style */
 .about{
     background-color: rgb(255, 248, 243);
@@ -149,3 +152,41 @@ color: rgb(71, 71, 71);
     font-weight: 400;
 }
 
+/* Resume  styles start from here */
+.resume{
+   
+}
+.edu-exp{
+    display:flex;
+    gap: 50px;
+}
+.edu-exp hr{
+    margin: 30px;
+}
+.resume-title{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700; 
+}
+
+.edu-ex-title{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu-ex-duration{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.edu-ex-dis{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+.down-cv{
+    text-align: center;
+    margin-top: 50px;
+}
